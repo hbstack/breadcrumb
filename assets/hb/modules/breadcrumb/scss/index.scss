@@ -32,6 +32,10 @@
                 color: inherit;
             }
         }
+
+        &:last-child {
+            max-width: 100%;
+        }
     }
 
     .breadcrumb-item:first-child {
