@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.5.0](https://github.com/hbstack/breadcrumb/compare/v0.4.0...v0.5.0) (2023-11-10)
+
+
+### Features ✨
+
+* **i18n:** create pt-br.toml ([#94](https://github.com/hbstack/breadcrumb/issues/94)) ([e13c19a](https://github.com/hbstack/breadcrumb/commit/e13c19a6fce784746dcecded86c6653bb0390661))
+
+
+### Bug Fixes 🐞
+
+* **deps:** update dependency stylelint-scss to v5.3.1 ([5828ae5](https://github.com/hbstack/breadcrumb/commit/5828ae523a715ce3a1275b85b0cbaedcdf22a3e0))
+
 ## [0.4.0](https://github.com/hbstack/breadcrumb/compare/v0.3.0...v0.4.0) (2023-11-01)
 
 
