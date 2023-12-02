@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.1](https://github.com/hbstack/breadcrumb/compare/v0.5.0...v0.5.1) (2023-12-02)
+
+
+### Bug Fixes 🐞
+
+* **seo:** add min-width for items ([e0c05dd](https://github.com/hbstack/breadcrumb/commit/e0c05dd32a4eec615dfa853162d0df0b84a6428e))
+
 ## [0.5.0](https://github.com/hbstack/breadcrumb/compare/v0.4.0...v0.5.0) (2023-11-10)
 
 
