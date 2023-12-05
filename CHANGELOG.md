@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.2](https://github.com/hbstack/breadcrumb/compare/v0.5.1...v0.5.2) (2023-12-05)
+
+
+### Bug Fixes 🐞
+
+* **i18n:** update ms.toml ([#108](https://github.com/hbstack/breadcrumb/issues/108)) ([c694d90](https://github.com/hbstack/breadcrumb/commit/c694d90c5d7d1ddef037aaffdd9a6488c3b1de06))
+
 ## [0.5.1](https://github.com/hbstack/breadcrumb/compare/v0.5.0...v0.5.1) (2023-12-02)
 
 
