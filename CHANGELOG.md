@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/hbstack/breadcrumb/compare/v0.5.2...v0.6.0) (2023-12-09)
+
+
+### Features ✨
+
+* add support for icons ([#112](https://github.com/hbstack/breadcrumb/issues/112)) ([acdc831](https://github.com/hbstack/breadcrumb/commit/acdc831359ed8aa0cc33c086c50d1be92c5e7ee2))
+
 ## [0.5.2](https://github.com/hbstack/breadcrumb/compare/v0.5.1...v0.5.2) (2023-12-05)
 
 
