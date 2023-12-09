@@ -5,12 +5,20 @@
         {{- range .Ancestors.Reverse }}
           <li class="breadcrumb-item">
             <a href="{{ .RelPermalink }}" title="{{ .Title }}">
+              {{- with .Params.nav_icon }}
+                {{- partial "icons/icon" (merge . (dict "color" "" "className" "me-1")) }}
+              {{- end }}
               {{- cond .IsHome (i18n "hb_breadcrumb_home") .Title -}}
             </a>
           </li>
         {{- end -}}
         <li class="breadcrumb-item active" aria-current="page">
-          <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{- .Title -}}</a>
+          <a href="{{ .RelPermalink }}" title="{{ .Title }}">
+            {{- with .Params.nav_icon }}
+              {{- partial "icons/icon" (merge . (dict "color" "" "className" "me-1")) }}
+            {{- end }}
+            {{- .Title -}}
+          </a>
         </li>
       </ol>
     </nav>
