@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.1](https://github.com/hbstack/breadcrumb/compare/v0.7.0...v0.7.1) (2024-06-04)
+
+
+### Bug Fixes 🐞
+
+* ancestors cache issue ([493af25](https://github.com/hbstack/breadcrumb/commit/493af257c9b65f5cdcef1b6a601edc915c4e12b6))
+
 ## [0.7.0](https://github.com/hbstack/breadcrumb/compare/v0.6.0...v0.7.0) (2024-06-04)
 
 
