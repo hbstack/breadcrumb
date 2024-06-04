@@ -2,16 +2,7 @@
   <div class="container-fluid px-0 mb-4">
     <nav aria-label="breadcrumb">
       <ol class="hb-breadcrumb breadcrumb">
-        {{- range .Ancestors.Reverse }}
-          <li class="breadcrumb-item">
-            <a href="{{ .RelPermalink }}" title="{{ .Title }}">
-              {{- with .Params.nav_icon }}
-                {{- partial "icons/icon" (merge . (dict "color" "" "className" "me-1")) }}
-              {{- end }}
-              {{- cond .IsHome (i18n "hb_breadcrumb_home") .Title -}}
-            </a>
-          </li>
-        {{- end -}}
+        {{- partialCached "hb/modules/breadcrumb/ancestors" .Ancestors .Ancestors }}
         <li class="breadcrumb-item active" aria-current="page">
           <a href="{{ .RelPermalink }}" title="{{ .Title }}">
             {{- with .Params.nav_icon }}
