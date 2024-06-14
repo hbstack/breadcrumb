@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.7.2](https://github.com/hbstack/breadcrumb/compare/v0.7.1...v0.7.2) (2024-06-14)
+
+
+### Styles 🎨
+
+* hide active item from mobile view ([#180](https://github.com/hbstack/breadcrumb/issues/180)) ([202f23d](https://github.com/hbstack/breadcrumb/commit/202f23d1a5e8a79af5873f64bcebe7fceb4b6b11))
+* set max-width for active item ([202f23d](https://github.com/hbstack/breadcrumb/commit/202f23d1a5e8a79af5873f64bcebe7fceb4b6b11))
+
 ## [0.7.1](https://github.com/hbstack/breadcrumb/compare/v0.7.0...v0.7.1) (2024-06-04)
 
 
