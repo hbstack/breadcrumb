@@ -3,16 +3,16 @@
     --#{$prefix}breadcrumb-divider: "";
     --#{$prefix}link-color-rgb: var(--#{$prefix}body-secondary);
 
-    flex-wrap: nowrap;
     overflow: hidden;
+    flex-wrap: nowrap;
     white-space: nowrap;
 
     .breadcrumb-item {
         background: var(--#{$prefix}secondary-bg);
         clip-path: polygon(0 0, calc(100% - 1rem) 0, 100% 50%, calc(100% - 1rem) 100%, 0 100%, 1rem 50%);
         margin-right: -0.875rem;
-        min-width: 48px;
-        max-width: 360px;
+        max-width: 240px;
+        flex-shrink: 0;
         overflow: hidden;
         padding: 0.5rem 0;
         text-overflow: ellipsis;
@@ -35,38 +35,18 @@
         }
 
         &:last-child {
-            max-width: 100%;
-        }
-    }
+            max-width: 320px;
 
-    .breadcrumb-item:first-child {
-        clip-path: polygon(0 0, calc(100% - 1rem) 0, 100% 50%, calc(100% - 1rem) 100%, 0 100%);
+            @include media-breakpoint-up(xl) {
+                max-width: 480px;
+            }
 
-        a {
-            padding-left: 0.75rem;
-        }
-    }
+            @include media-breakpoint-up(xxl) {
+                max-width: 640px;
+            }
 
-    @include media-breakpoint-down(md) {
-        .breadcrumb-item {
-            max-width: 240px;
-
-            &:not(:first-child) {
-                &:not(:last-child) {
-                    align-items: center;
-                    display: flex;
-                    justify-content: center;
-                    width: 2.75rem;
-
-                    a {
-                        display: none;
-                    }
-
-                    &::after {
-                        content: "...";
-                        margin-top: -0.5rem;
-                    }
-                }
+            @include media-breakpoint-down(sm) {
+                display: none;
             }
         }
     }
