@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.3](https://github.com/hbstack/breadcrumb/compare/v0.7.2...v0.7.3) (2024-06-17)
+
+
+### Styles 🎨
+
+* correct the padding of first item ([#183](https://github.com/hbstack/breadcrumb/issues/183)) ([60f1f5d](https://github.com/hbstack/breadcrumb/commit/60f1f5d070622c8a3a9870bbd9b146f3db827156))
+
 ## [0.7.2](https://github.com/hbstack/breadcrumb/compare/v0.7.1...v0.7.2) (2024-06-14)
 
 
