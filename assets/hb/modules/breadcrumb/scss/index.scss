@@ -34,6 +34,10 @@
             }
         }
 
+        &:first-child {
+            padding-right: .5rem;
+        }
+
         &:last-child {
             max-width: 320px;
 
