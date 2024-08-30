@@ -3,6 +3,6 @@
     {{- with .Params.nav_icon }}
       {{- partial "icons/icon" (merge . (dict "color" "" "className" "me-1")) }}
     {{- end }}
-    {{- cond .IsHome (i18n "hb_breadcrumb_home") .Title -}}
+    {{- cond .IsHome (i18n "hb_breadcrumb_home") .LinkTitle -}}
   </a>
 </li>
