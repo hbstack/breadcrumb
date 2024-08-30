@@ -12,7 +12,7 @@
             {{- with .Params.nav_icon }}
               {{- partial "icons/icon" (merge . (dict "color" "" "className" "me-1")) }}
             {{- end }}
-            {{- .Title -}}
+            {{- .LinkTitle -}}
           </a>
         </li>
       </ol>
