@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.8.0](https://github.com/hbstack/breadcrumb/compare/v0.7.4...v0.8.0) (2024-11-23)
+
+
+### Features ✨
+
+* **i18n:** add Spanish translation ([#245](https://github.com/hbstack/breadcrumb/issues/245)) ([3a08b42](https://github.com/hbstack/breadcrumb/commit/3a08b42d3d5c5f3ffde7b72879b84c5b7c68e536))
+
+
+### Bug Fixes 🐞
+
+* **deps:** update dependency stylelint-scss to v6.10.0 ([257ec8c](https://github.com/hbstack/breadcrumb/commit/257ec8ca347548a21c0d662c56547656695d8226))
+* **deps:** update dependency stylelint-scss to v6.6.0 ([2916909](https://github.com/hbstack/breadcrumb/commit/2916909c5a4acfa666f9ab8e69adc7d9179cf2f0))
+* **deps:** update dependency stylelint-scss to v6.7.0 ([3c02726](https://github.com/hbstack/breadcrumb/commit/3c02726946b7366af7ef6c5c3e617f0ffb15b163))
+* **deps:** update dependency stylelint-scss to v6.8.0 ([de385aa](https://github.com/hbstack/breadcrumb/commit/de385aaa15f4b92d88537b620fe2a968436666d7))
+* **deps:** update dependency stylelint-scss to v6.8.1 ([59996e8](https://github.com/hbstack/breadcrumb/commit/59996e837dba8da19acd070fbfa3e0bffc6c99cd))
+* **deps:** update dependency stylelint-scss to v6.9.0 ([6d1f336](https://github.com/hbstack/breadcrumb/commit/6d1f336713ee37caff31e12c8f6c1f02ff998429))
+
 ## [0.7.4](https://github.com/hbstack/breadcrumb/compare/v0.7.3...v0.7.4) (2024-08-30)
 
 
