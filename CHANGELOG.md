@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.8.1](https://github.com/hbstack/breadcrumb/compare/v0.8.0...v0.8.1) (2025-10-20)
+
+
+### Bug Fixes 🐞
+
+* **deps:** update dependency stylelint-scss to v6.10.1 ([c81e049](https://github.com/hbstack/breadcrumb/commit/c81e04991ea64a0601670a9ea1d3a7c37bcf1597))
+* **deps:** update dependency stylelint-scss to v6.11.0 ([c7f364b](https://github.com/hbstack/breadcrumb/commit/c7f364b00a13e4b6f49af6c337c752bec53bc955))
+* **deps:** update dependency stylelint-scss to v6.11.1 ([5473fb8](https://github.com/hbstack/breadcrumb/commit/5473fb8c98279134f000032b486987e68c940ed7))
+* **deps:** update dependency stylelint-scss to v6.12.0 ([8d7d0b6](https://github.com/hbstack/breadcrumb/commit/8d7d0b650ba3c50bc230de0fd5aa8a0489defec0))
+* **deps:** update dependency stylelint-scss to v6.12.1 ([50a8f0c](https://github.com/hbstack/breadcrumb/commit/50a8f0cdce0a678483e7b4359a556a21b09ba3a0))
+
 ## [0.8.0](https://github.com/hbstack/breadcrumb/compare/v0.7.4...v0.8.0) (2024-11-23)
 
 
